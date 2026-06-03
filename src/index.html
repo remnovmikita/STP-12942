@@ -2,21 +2,32 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--  -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Normalize -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css">
+    <!--  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Annoying Cats</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" icon-path2="img/sprite.svg#logo"/>
 
+    <load src="./partials/header.html" />
     <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
+    <load src="./partials/hero.html" />
+    <load src="./partials/about.html" />
+    <load src="./partials/howToPlay.html" />
+    <load src="./partials/features.html" />
+    <load src="./partials/faq.html" />
+    <load src="./partials/catChaos.html" />
     </main>
-
     <load src="./partials/footer.html" />
+
 
     <script type="module" src="./main.js"></script>
   </body>

@@ -8,11 +8,19 @@
 @import url('./reset.css');
 @import url('./base.css');
 @import url('./container.css');
-@import url('./animations.css');
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./about.css');
+@import url('./hero.css');
+@import url('./howToPlay.css');
+@import url('./features.css');
+@import url('./faq.css');
+@import url('./catChaos.css');
 @import url('./footer.css');
+/* Btn */
+@import url('./backBtn.css');
+@import url('./googleBtn.css');
+/* privacy & terms */
+@import url('./terms.css');
+@import url('./privacyPolicy.css');

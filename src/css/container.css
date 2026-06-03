@@ -3,12 +3,19 @@
   min-width: 320px;
   max-width: 375px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 17px;
 }
-
+section{
+  padding: 56px 0px;
+  /* scroll-margin-top: 74px */
+}
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
+    padding: 0 72px;
   }
+  section{
+  padding: 100px 0px;
+}
 }
