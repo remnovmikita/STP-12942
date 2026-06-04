@@ -18,6 +18,7 @@ font-weight: 600;
 font-size: 76px;
 line-height: 1.18421;
 color: #fff;
+
 margin-bottom: 12px;
   text-shadow:
     -2px -2px 0 black,
@@ -80,7 +81,7 @@ background: #fff;
   background-position: 46% 57%;
   padding: 86px 0px;
 }
-h1{
+.hero-content h1{
   font-family: "Alexandria", sans-serif;
 font-weight: 600;
 font-size: 54px;

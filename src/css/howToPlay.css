@@ -49,12 +49,13 @@ color: #2a1f1a;
   display: flex;
   gap: 16px;
   padding: 24px;
+  align-items: center;
 
   border: 1px solid #662d2d;
 border-radius: 24px;
 padding: 24px;
 background: #f6e7d3;
-width: 416px;
+
 height: 174px;
 }
 .image-text{
@@ -80,7 +81,7 @@ color: #fff;
   z-index: 2;
 }
 .image-block {
-  width: 119px;
+  width: 112px;
   height: 123px;
   position: relative;
   display: flex;
@@ -89,8 +90,6 @@ color: #fff;
   position: absolute;
   top: 0;
   right: 0;
-  width: 100px;
-  height: 93px;
 }
 .text-block{
   margin-top: 7px;
@@ -112,10 +111,22 @@ font-size: 36px;
 line-height: 1.11111;
 text-align: center;
 }
+.text-block{
+  width: 165px;
+}
+
 .howToPlay-p{
 font-size: 18px;
 line-height: 1.33333;
 text-align: center;
 color: #2a1f1a;
+}
+.howToPlay-content{
+  gap: 24px 0px;
+}
+}
+@media only screen and (max-width: 340px){
+.howToPlay-content li{
+  padding:3px;
 }
 }
