@@ -1,0 +1,121 @@
+
+.howToPlay-h2{
+font-family: "Alexandria", sans-serif;
+font-weight: 600;
+font-size: 54px;
+line-height: 1;
+text-align: center;
+color: #2a1f1a;
+margin-bottom: 8px;
+}
+.howToPlay-p{
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #2a1f1a;
+margin-bottom: 32px;
+}
+.howToPlay-content{
+display: flex;
+flex-wrap: wrap;
+gap: 36px 24px;
+align-items: center;
+justify-content: center;
+max-width: 1440px;
+}
+.howToPlay-h3{
+display: inline-block;
+width: auto;
+font-family: "Alexandria", sans-serif;
+font-weight: 600;
+font-size: 18px;
+line-height: 1.11111;
+color: #2a1f1a;
+text-align: center;
+}
+.content-p{
+display: inline-block;
+width: auto;
+text-align: center;
+ white-space: normal;
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+color: #2a1f1a;
+}
+.howToPlay-content li{
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+
+  border: 1px solid #662d2d;
+border-radius: 24px;
+padding: 24px;
+background: #f6e7d3;
+width: 416px;
+height: 174px;
+}
+.image-text{
+
+  font-family: "Nunito", sans-serif;
+font-weight: 800;
+font-size: 20px;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: auto;
+  padding: 8.5px 16px;
+  border-radius: 22px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  background: #662d2d;
+  color: #fff;
+  z-index: 2;
+}
+.image-block {
+  width: 119px;
+  height: 123px;
+  position: relative;
+  display: flex;
+}
+.howToPlay-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 93px;
+}
+.text-block{
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 233px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1439px){
+.howToPlay-h2{
+  font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11111;
+text-align: center;
+}
+.howToPlay-p{
+font-size: 18px;
+line-height: 1.33333;
+text-align: center;
+color: #2a1f1a;
+}
+}

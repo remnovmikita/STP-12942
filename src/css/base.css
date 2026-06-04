@@ -8,11 +8,8 @@ background: #f6e7d3;
 #howToplay, #faq{
 background: #fff4e8;
 }
-body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
-}
 
+body[data-scroll="disabled"] {
+  overflow: hidden;
+  height: 100vh;
+}

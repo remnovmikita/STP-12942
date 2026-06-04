@@ -1,5 +1,54 @@
 <header>
-  <div class="container">
-    test header
+  <div class="header-bg">
+    <div class="header">
+      <div class="header-icon">
+        <svg class="icon-svg" width="44" height="44">
+        <use href="/img/logoMain.svg"></use>
+        </svg>
+        <p class="header-icon-text">Annoying Cats : Tricky Puzzle</p>
+        <p class="header-icon-text-mobile">Annoying Cats</p>
+      </div>
+      <div class="navigation">
+        <nav class="header-nav">
+          <ul class="header-ul">
+        <li><a href="#about">About the Game</a></li>
+        <li><a href="#howToPlay">How to Play</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#catChaos">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button class="burger-menu" data-action="open">
+        <svg class="" width="32" height="24">
+        <use href="/img/sprite.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+<!-- Modal -->
+ <div class="mobile-menu" data-visible="close">
+  <div class="mobile-header">
+        <div class="header-icon">
+        <svg class="icon-svg" width="44" height="44">
+        <use href="/img/logoMain.svg"></use>
+        </svg>
+        <p class="header-icon-text-mobile">Annoying Cats</p>
+      </div>
+      <button class="btn-close" data-action="close">
+    <svg width="24" height="24" class="close-icon">
+      <use href="/img/sprite.svg#icon-close"></use>
+    </svg>
+  </button>
+  </div>
+    <nav class="header-nav-mobile">
+      <ul class="header-ul-mobile">
+        <li><a href="#about">About the Game</a></li>
+        <li><a href="#howToPlay">How to Play</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#catChaos">Contact</a></li>
+      </ul>
+    </nav>
+</div>
   </div>
 </header>

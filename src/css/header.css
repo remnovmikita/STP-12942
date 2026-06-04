@@ -1,0 +1,122 @@
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.header-bg{
+  width: 100%;
+  background: #662d2d;
+}
+.header-icon-text-mobile{
+  display: none;
+}
+.header{
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  padding: 13px 72px;
+  justify-content: space-between;
+}
+.icon-svg{
+  margin-right: 8px;
+}
+.header-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-icon-text{
+  font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #fff;
+}
+.burger-menu{
+  display: none;
+}
+.header-ul{
+  display: flex;
+  gap: 32px;
+}
+.header-ul li{
+  font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #fff;
+}
+.mobile-menu{
+  display: none;
+}
+@media only screen and (max-width: 1439px) {
+  .burger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: #662d2d;
+  }
+
+  .header{
+  align-items: center;
+  padding: 13px 20px;
+  justify-content: space-between;
+}
+.header-icon-text{
+  display: none;
+}
+.header-icon-text-mobile{
+  display: block;
+  font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #fff;
+}
+  .navigation {
+display: none;
+  }
+  .mobile-menu {
+  display: block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: auto;
+  background: #662d2d;
+
+  padding: 24px 20px;
+  margin: 0px auto;
+  transition: transform 300ms ease;
+  pointer-events: none;
+}
+
+.mobile-menu[data-visible="open"] {
+  transform: translateX(0);
+  pointer-events: auto;
+}
+.mobile-header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+
+}
+.mobile-menu[data-visible="close"] {
+  transform: translateX(100%);
+  pointer-events: none;
+}
+.btn-close{
+  background: #662d2d;
+}
+.header-ul-mobile{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.header-nav-mobile ul li a{
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #fff;
+}
+
+}

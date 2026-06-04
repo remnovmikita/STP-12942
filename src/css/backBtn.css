@@ -1,3 +1,54 @@
 .btn-back{
-  
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 20px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+color: #2a1f1a;
+  &:hover{
+    color: #662d2d;
+  }
+}
+.icon-back{
+  margin-right: 10px;
+}
+.block-back{
+  display: flex;
+  justify-content: space-between;
+  padding: 13px 72px;
+  margin: 0 auto;
+  align-items: center;
+  max-width: 1440px;
+}
+.logo-back{
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+}
+.text-back{
+font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #2a1f1a;
+margin-left: 8px;
+}
+.block-logo{
+  display: flex;
+  align-items: center;
+}
+@media only screen and (max-width: 1439px){
+  .block-back{
+    padding: 13px 17px;
+  }
+  .block-back{
+  min-width: 320px;
+  max-width: 375px;
+  }
+  .text-back{
+    display: none;
+  }
 }

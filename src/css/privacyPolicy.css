@@ -1,3 +1,86 @@
 .privacy{
 background: #f6e7d3;
 }
+.privacy h1{
+font-family: "Alexandria", sans-serif;
+font-weight: 600;
+font-size: 76px;
+line-height: 1.18421;
+text-align: center;
+color: #2a1f1a;
+margin-bottom: 8px;
+max-width: 1440px;
+}
+.text-h1{
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 32px !important;
+line-height: 1.25 !important;
+text-align: center;
+color: #2a1f1a;
+padding-bottom: 24px;
+max-width: 1440px;
+}
+.privacy section{
+  margin: 0 auto;
+  padding: 24px 158px;
+  max-width: 1440px;
+}
+.privacy h2{
+  font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 36px;
+line-height: 1.11111;
+color: #2a1f1a;
+margin-bottom: 16px;
+max-width: 1440px;
+}
+.privacy p, .privacy ul li{
+  font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.33333;
+color: #2a1f1a;
+max-width: 1440px;
+}
+ .privacy ul{
+  margin-top: 16px;
+ }
+.privacy ul li::before {
+  content: "•";
+  font-size: 1.5em;
+  color: black;
+  margin-right: 8px;
+}
+.margin{
+  margin-top: 16px;
+}
+.mail{
+  color: #2644da;
+}
+@media only screen and (max-width: 1439px){
+  .privacy h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    padding: 0px 16px;
+    font-size: 54px;
+line-height: 1;
+  }
+  .privacy section{
+  padding: 24px 16px;
+}
+  .text-h1{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 16px;
+    font-family: "Montserrat", sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: #2a1f1a;
+  }
+}

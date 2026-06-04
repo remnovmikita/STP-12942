@@ -7,7 +7,7 @@
 }
 section{
   padding: 56px 0px;
-  /* scroll-margin-top: 74px */
+  scroll-margin-top: 56px
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1440px) {
@@ -17,5 +17,6 @@ section{
   }
   section{
   padding: 100px 0px;
+  scroll-margin-top: 100px
 }
 }

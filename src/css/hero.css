@@ -1,0 +1,108 @@
+#hero {
+  background-image: image-set(
+    url("../img/Hero.png") 1x,
+    url("../img/Hero@2x.png") 2x
+  );
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 125px 0px;
+}
+.hero-content{
+ max-width: 634px;
+}
+.hero-content h1{
+font-family: "Alexandria", sans-serif;
+font-weight: 600;
+font-size: 76px;
+line-height: 1.18421;
+color: #fff;
+margin-bottom: 12px;
+  text-shadow:
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+}
+.hero-after-h1{
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 1.25;
+color: #fff;
+margin-bottom: 24px;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+}
+.btn-one{
+font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.42857;
+color: #2a1f1a;
+}
+.btn-two{
+font-family: "Alexandria", sans-serif;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.11111;
+color: #2a1f1a;
+}
+.google-icon{
+  width: 24px;
+  height: 27px;
+}
+.btn-google{
+display: flex;
+gap: 16px;
+align-items: center;
+justify-content: center;
+
+border: 1px solid #2a1f1a;
+border-radius: 32px;
+max-width: 290px;
+height: 60px;
+
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+background: #fff;
+
+&:hover{
+  background: #fff4e8;
+}
+}
+@media only screen and (max-width: 1439px) {
+#hero{
+  background-size: auto 135%;
+  background-position: 46% 57%;
+  padding: 86px 0px;
+}
+h1{
+  font-family: "Alexandria", sans-serif;
+font-weight: 600;
+font-size: 54px;
+line-height: 1;
+text-align: center;
+color: #fff;
+
+}
+.hero-after-h1{
+  font-family: "Montserrat", sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 1.25;
+text-align: center;
+color: #fff;
+}
+.btn-google{
+  width: 340px;
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+}
