@@ -19,6 +19,9 @@ header {
   justify-content: space-between;
 }
 .icon-svg{
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
   margin-right: 8px;
 }
 .header-icon{
