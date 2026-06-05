@@ -88,6 +88,7 @@ color: #fff;
   align-items: center;
   padding: 13px 20px;
   justify-content: space-between;
+  max-width: 375px;
 }
 .header-icon-text{
   display: none;
