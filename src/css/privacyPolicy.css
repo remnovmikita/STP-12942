@@ -14,8 +14,8 @@ max-width: 1440px;
 .text-h1{
 font-family: "Montserrat", sans-serif;
 font-weight: 400;
-font-size: 32px !important;
-line-height: 1.25 !important;
+font-size: 32px;
+line-height: 1.25;
 text-align: center;
 color: #2a1f1a;
 padding-bottom: 24px;
@@ -68,6 +68,9 @@ max-width: 1440px;
     padding: 0px 16px;
     font-size: 54px;
 line-height: 1;
+  }
+  .privacy h2{
+    text-align: center;
   }
   .privacy section{
   padding: 24px 16px;

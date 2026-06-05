@@ -55,8 +55,11 @@ color: #2a1f1a;
 border-radius: 24px;
 padding: 24px;
 background: #f6e7d3;
-
+transition: transform 300ms ease-in-out;
 height: 174px;
+&:hover{
+  transform: scale(1.05);
+}
 }
 .image-text{
 
