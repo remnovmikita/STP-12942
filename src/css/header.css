@@ -11,6 +11,7 @@ header {
   display: none;
 }
 .header{
+  max-width: 1440px;
   margin: 0px auto;
   display: flex;
   align-items: center;
@@ -38,15 +39,38 @@ color: #fff;
   display: flex;
   gap: 32px;
 }
-.header-ul li{
-  font-family: "Montserrat", sans-serif;
-font-weight: 600;
-font-size: 20px;
-color: #fff;
-}
+
 .mobile-menu{
   display: none;
 }
+.header-ul li a {
+    font-family: "Montserrat", sans-serif;
+font-weight: 600;
+font-size: 20px;
+color: #fff;
+  position: relative;
+  display: inline-block;
+  padding: 5px 0;
+  text-decoration: none;
+}
+
+.header-ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f6e7d3;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.header-ul li a:hover::after {
+  transform: scaleX(1);
+}
+
 @media only screen and (max-width: 1439px) {
   .burger-menu{
     display: flex;
