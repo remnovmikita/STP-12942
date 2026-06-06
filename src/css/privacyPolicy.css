@@ -35,7 +35,7 @@ color: #2a1f1a;
 margin-bottom: 16px;
 max-width: 1440px;
 }
-.privacy p, .privacy ul li{
+.privacy .text-p, .privacy ul li{
   font-family: "Montserrat", sans-serif;
 font-weight: 400;
 font-size: 18px;
