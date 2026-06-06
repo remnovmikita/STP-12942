@@ -1,3 +1,127 @@
-.terms{
+.terms {
+  --typography-main: #2a1f1a;
   background: #f6e7d3;
+}
+
+.terms-content {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+
+.terms-hero,
+.terms-section {
+  padding-right: 17px;
+  padding-left: 17px;
+}
+
+.terms-hero {
+  padding-top: 24px;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+.terms-hero h1 {
+  font-family: "Alexandria", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px;
+  color: var(--typography-main, #2a1f1a);
+  text-align: center;
+}
+
+.terms-hero p {
+  margin-top: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--typography-main, #2a1f1a);
+  text-align: center;
+}
+
+.terms-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.terms-section h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 34px;
+  color: var(--typography-main, #2a1f1a);
+}
+
+.terms-section p,
+.terms-section li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--typography-main, #2a1f1a);
+}
+
+.terms-list {
+  margin-top: 0;
+  padding-left: 24px;
+  list-style: disc;
+}
+
+.terms-list li + li {
+  margin-top: 4px;
+}
+
+.terms-mail {
+  color: #2644da;
+}
+
+.terms-closing {
+  margin-top: 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .terms-hero h1 {
+    font-size: 54px;
+    line-height: 64px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .terms-content {
+    padding-bottom: 24px;
+  }
+
+  .terms-hero,
+  .terms-section {
+    padding-right: 158px;
+    padding-left: 158px;
+  }
+
+  .terms-hero h1 {
+    font-size: 76px;
+    line-height: 90px;
+  }
+
+  .terms-hero p {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .terms-section h2 {
+    font-size: 36px;
+    line-height: 40px;
+  }
 }

@@ -64,6 +64,11 @@
   border: 1px solid var(--background-header-footer, #662d2d);
   background: var(--background-second-brand-color, #fff4e8);
   box-sizing: border-box;
+  transition: transform 300ms ease-in-out;
+}
+
+.features-item:hover {
+  transform: scale(1.05);
 }
 
 .features-icon {
