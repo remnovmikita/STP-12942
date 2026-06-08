@@ -4,20 +4,20 @@ document.addEventListener('DOMContentLoaded', () => {
     btn.addEventListener('click', () => {
       const parentItem = btn.closest('[data-faq="item"]');
       if (!parentItem) return;
-      const isActive = parentItem.classList.contains('active');
+      const isActive = parentItem.getAttribute('data-state') === 'active';
       const allItems = document.querySelectorAll('[data-faq="item"]');
       allItems.forEach(item => {
-        item.classList.remove('active');
+        item.removeAttribute('data-state');
         const itemBtn = item.querySelector('[data-faq="button"]');
         if (itemBtn) {
           itemBtn.setAttribute('aria-expanded', 'false');
         }
       });
       if (!isActive) {
-        parentItem.classList.add('active');
+        parentItem.setAttribute('data-state', 'active');
         btn.setAttribute('aria-expanded', 'true');
       } else {
-        parentItem.classList.remove('active');
+        parentItem.removeAttribute('data-state');
         btn.setAttribute('aria-expanded', 'false');
       }
     });
