@@ -103,6 +103,7 @@
 }
 
 .faq-item[data-state="active"] .faq-question-btn {
+  width: calc(100% + 2px);
   margin: -1px -1px 0 -1px;
   background-color: var(--background-main-brand-color, #f6e7d3);
   border: 1px solid var(--background-header-footer, #662d2d);
